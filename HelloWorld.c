@@ -1,7 +1,7 @@
 #include <stio.h>
 
 int main(void){
-    printf("Hello Crool World!\n");
+    printf("Hello Very Crool World!\n");
     return 0;
 }
 
