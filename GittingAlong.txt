@@ -1,0 +1,49 @@
+
+  506  git push -u origin main
+  507  git push -u origin main
+  508  git push -u origin main
+  509  git config --global credential.helper store
+  510  cd ~/Desktop/CSC322/labtask-06-exa238-master
+  511  ls
+  512  cd GitLab
+  513  ls
+  514  git init
+  515  git add HelloWorld.c
+  516  git status
+  517  cd ~/Desktop/CSC322/labtask-06-exa238-master
+  518  mkdir GitLab
+  519  cd GitLab
+  520  git init
+  521  git add HelloWorld.c
+  522  git commit -m "Testing initial commit: Hello World Program"
+  523  git log --oneline
+  524  git remote add origin https://github.com/exa238/CSC322-GitLab
+  525  git remote -v
+  526  push
+  527  git branch -M main
+  528  git push -u origin main
+  529  nano HelloWorld.c
+  530  git add HelloWorld.c
+  531  git commit -m "changed the message to hello crool world"
+  532  git push
+  533  git checkout -b Happy
+  534  git push -u origin Happy
+  535  nano HelloWorld.c
+  536  git add HelloWorld.c
+  537  git commit -m "changed the message to hello happy world"
+  538  git push
+  539  git checkout main
+  540  nano HelloWorld.c
+  541  git add HelloWorld.c
+  542  git commit -m "changed the message to hello very crool world"
+  543  git push
+  544  git merge Happy
+  545  nano HelloWorld.c
+  546  git add HelloWorld.c
+  547  git commit -m "Merged happy branch to main"
+  548  git push
+  549  nano HelloWorld.c
+  550  git add HelloWorld.c
+  551  git commit -m "changed the message to hello crazy world"
+  552  git push
+  553  history | tail -n 50 > GittingAlong.txt

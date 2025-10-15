@@ -1,0 +1,8 @@
+* 54faed9 changed the message to hello crazy world
+*   93b5475 Merged happy branch to main
+|\  
+| * 7c74319 changed the message to hello happy world
+* | d74ffdf changed the message to hello very crool world
+|/  
+* 3f208d4 changed the message to hello crool world
+* 7f6ef01 Testing initial commit: Hello World Program
